@@ -59,9 +59,9 @@ export default function Home() {
             <button className="text-sm font-medium text-white hover:text-gold-300 transition-colors">
               Login
             </button>
-            <button className="px-5 py-2.5 rounded-full bg-white text-dark-950 text-sm font-semibold hover:bg-gold-100 transition-colors flex items-center gap-2">
+            <a href="/PrimePe.apk" download="PrimePe.apk" className="px-5 py-2.5 rounded-full bg-white text-dark-950 text-sm font-semibold hover:bg-gold-100 transition-colors flex items-center gap-2">
               Download <Download className="w-4 h-4" />
-            </button>
+            </a>
           </div>
 
           <button 
@@ -132,10 +132,10 @@ export default function Home() {
               transition={{ delay: 0.3 }}
               className="flex flex-col sm:flex-row items-center gap-4 pt-4"
             >
-              <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-gold-500 to-gold-400 text-dark-950 font-semibold text-lg hover:shadow-lg hover:shadow-gold-500/25 transition-all flex items-center justify-center gap-2 group">
+              <a href="/PrimePe.apk" download="PrimePe.apk" className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-gold-500 to-gold-400 text-dark-950 font-semibold text-lg hover:shadow-lg hover:shadow-gold-500/25 transition-all flex items-center justify-center gap-2 group">
                 Download App
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <button className="w-full sm:w-auto px-8 py-4 rounded-full glass-panel text-white font-semibold text-lg hover:bg-white/5 transition-colors">
                 Start Earning
               </button>
@@ -392,10 +392,10 @@ export default function Home() {
                   <h3 className="text-4xl font-bold text-white mb-6">Ready when you are.</h3>
                   <p className="text-xl text-dark-300 mb-10">Your next reward is one task away.</p>
                   
-                  <button className="w-full sm:w-auto mx-auto px-8 py-4 rounded-full bg-white text-dark-950 font-bold text-lg hover:bg-gold-50 transition-colors flex items-center justify-center gap-2 mb-6">
+                  <a href="/PrimePe.apk" download="PrimePe.apk" className="w-full sm:w-auto mx-auto px-8 py-4 rounded-full bg-white text-dark-950 font-bold text-lg hover:bg-gold-50 transition-colors flex items-center justify-center gap-2 mb-6">
                     Download PrimePay
                     <Download className="w-5 h-5" />
-                  </button>
+                  </a>
                   <p className="text-sm font-medium text-dark-400 hover:text-white transition-colors cursor-pointer mb-8">
                     Learn more
                   </p>
